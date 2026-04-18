@@ -23,7 +23,8 @@ This repo is the publication layer for append-only, cloneable receipt ledgers.
 
 ## Current validation baseline
 
-- `../.tools/gitleaks dir . --config gitleaks.toml`
+- `bash .github/scripts/check-baseline.sh`
+- `gitleaks dir . --config gitleaks.toml`
 
 ## Target validation baseline once implementation lands
 
