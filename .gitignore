@@ -1,0 +1,20 @@
+# Go
+/bin
+/dist
+*.test
+coverage.out
+
+# Editors / OS
+.DS_Store
+.idea
+.vscode
+
+# Secrets / local config
+.env
+.env.*
+*.pem
+*.key
+
+# Reports
+*.sarif
+*.log
