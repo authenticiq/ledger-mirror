@@ -4,7 +4,7 @@ Git-native append-only public ledger for signed AI agent receipts.
 
 ## Status
 
-This repository is a local staging scaffold. The public extraction sprint has not landed yet.
+This repository is an early public scaffold. The full extraction sprint has not landed yet.
 
 Planned launch surface:
 - Deterministic git-backed ledger layout
@@ -12,4 +12,6 @@ Planned launch surface:
 - Offline clone-and-verify tooling
 - Reference compatibility with `agent-receipts`
 
-Launch updates will be published at `https://strata.codes/oss`.
+This project is intended to be usable independently of StrataCodes.
+
+Maintained by AuthenticIQ. StrataCodes may later use this project in production as a downstream commercial implementation.
